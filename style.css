@@ -1,0 +1,72 @@
+body {
+  position: relative;
+}
+
+#insta {
+  padding: 3px;
+  padding-left: 10px;
+}
+#face {
+  padding: 5px;
+}
+#twitter {
+  padding: 5px;
+  padding-right: 10px;
+}
+
+#imagemCorpo {
+  position: absolute;
+  width: 495px;
+  height: 296px;
+  left: 642px;
+  top: 422px;
+  border-radius: 10px;
+}
+
+#logo {
+  width: 270px;
+}
+#textoCentral {
+  position: absolute;
+  left: 70px;
+  top: 473px;
+  color: rgb(79, 79, 79, 1);
+}
+
+#titulo {
+  font: size 25px;
+  weight: 700;
+  style: normal;
+  line-height: 30px;
+  left: 35px;
+}
+#listas {
+  left: 70px;
+  width: 450px;
+}
+
+.card {
+  margin: 50px;
+  border: none;
+}
+
+#rodape {
+  position: relative;
+  background-color: rgb(43, 42, 42);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.sobre {
+  position: relative;
+  width: 538px;
+  height: 405px;
+  left: 77px;
+  top: 100px;
+  text-align: justify;
+}
+
+#card-title {
+  text-align: center;
+}
