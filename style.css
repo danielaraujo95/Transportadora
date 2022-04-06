@@ -1,6 +1,22 @@
+body,
+h1,
+h2,
+ul,
+li,
+p,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   position: relative;
-  border: opx;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  flex-wrap: wrap;
 }
 
 #insta {
@@ -92,12 +108,18 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 #sec2 {
+  position: relative;
+  width: 1440px;
+  height: 800px;
   background-color: rgba(232, 232, 232, 1);
+  flex-wrap: wrap;
 }
 
 #sec4 {
+  position: relative;
   background-color: rgba(232, 232, 232, 1);
 }
 
@@ -105,19 +127,27 @@ body {
   text-align: justify;
   width: 420px;
   right: 40px;
+  flex-wrap: wrap;
 }
 .form-inline {
   padding: 200px;
 }
 
 #sec5 {
+  position: relative;
   width: 1440px;
   height: 500px;
   align-items: center;
   position: relative;
+  flex-wrap: wrap;
 }
 
 #sec1 {
+  position: relative;
   width: 1440px;
-  height: 500px;
+  height: 800px;
+  flex-wrap: wrap;
+}
+.col {
+  flex-wrap: wrap;
 }
