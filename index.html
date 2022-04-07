@@ -14,7 +14,7 @@
 
 <body>
   <section id="sec1">
-    <nav class="navbar navbar-expand-sm nav-tabs navbar-light">
+    <nav class="navbar navbar-expand-sm fixed navbar-light nav-tabs navbar-light">
       <div class="navbar-brand">
         <img id="logo" class="img-fluid" src="./Image/Logo.png">
       </div>
@@ -24,14 +24,15 @@
           <li class="nav-item"> <a href="#sec2" class="nav-link">Serviços</a></li>
           <li class="nav-item"> <a href="#sec4" class="nav-link">Simulação</a></li>
           <li class="nav-item"> <a href="#sec5" class="nav-link">Localização</a></li>
-          <li class="btn btn-secondary">Fazer Pedido</li>
+          <li class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Fazer Pedido
+          </li>
           <li id="insta"> <a href="https://www.instagram.com/"><img src="./Image/instagram.png"></a> </li>
           <li id="face"> <a href="https://www.facebook.com/"> <img src="./Image/facebook.png"></a></li>
           <li id="twitter"> <a href="https://twitter.com/"><img src="./Image/Vector.png"></a> </li>
         </ul>
       </div>
     </nav>
-    <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide  relative" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./Image/1.png" class="d-block w-100">
@@ -51,23 +52,24 @@
           <img class="card-img-top" src="./Image/meio1.png">
           <div class="card-body">
             <h4 class="card-title">Logistica de alto nível</h4>
-            <a class="card-link" href="#">Saiba mais</a>
+            <!--<a class="card-link" href="#">Saiba mais</a>-->
           </div>
         </div>
-        <div id="imagem1" class="card col ">
-          <img class="card-img-top" src="./Image/meio2.png">
-          <div class="card-body">
-            <h4 class="card-title">Qualidade</h4>
-            <a class="card-link" href="#">Saiba mais</a>
+        <! -- e se termina com -->
+          <div id="imagem1" class="card col ">
+            <img class="card-img-top" src="./Image/meio2.png">
+            <div class="card-body">
+              <h4 class="card-title">Qualidade</h4>
+              <!--<a class="card-link" href="#">Saiba mais</a>-->
+            </div>
           </div>
-        </div>
-        <div id="imagem1" class="card col ">
-          <img class="card-img-top" src="./Image/meio3.png">
-          <div class="card-body">
-            <h4 class="card-title">Segurança</h4>
-            <a class="card-link" href="#">Saiba mais</a>
+          <div id="imagem1" class="card col ">
+            <img class="card-img-top" src="./Image/meio3.png">
+            <div class="card-body">
+              <h4 class="card-title">Segurança</h4>
+              <!--<a class="card-link" href="#">Saiba mais</a>-->
+            </div>
           </div>
-        </div>
       </div>
     </div>
   </section>
@@ -92,8 +94,9 @@
       </div>
 
       <div class="col-md-4 text-align-justify">
-        <h1>Faça uma simulação</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, optio voluptatum nostrum at quos vel veritatis temporibus, alias possimus amet iusto cum quam est perferendis impedit officiis similique reiciendis minima?</p>
+        <h1>Faça uma simulação</h1><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, optio voluptatum nostrum at quos vel veritatis temporibus, alias possimus amet iusto cum quam est perferendis impedit officiis similique reiciendis minima?</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe rem consectetur non, dolores culpa maxime vel eius aliquam, asperiores voluptatem animi placeat eligendi delectus quisquam aliquid accusantium qui laudantium. Vel.</p><br>
         <BUtton type="button" class="btn btn-warning">SAIBA MAIS</BUtton>
       </div>
     </div>
@@ -114,8 +117,8 @@
   <section class="container" id="sec5">
     <div class="row">
       <div class="col-md-5">
-        <h1>Já possui cadastro ?</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <h1>Receba as novidades por email?</h1><br>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p><br>
       </div>
       <form class="col-md-4" id="form1">
         <div>
